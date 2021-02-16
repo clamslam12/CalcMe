@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="7dp"
+        android:text="Google Search Input"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etGoogle"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="384dp"
+        android:ems="10"
+        android:hint="separate each operation by ()"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginBottom="152dp"
+        android:backgroundTint="#0F9D58"
+        android:text="Search"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnSimpleGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="537dp"
+        android:backgroundTint="#4285F4"
+        android:shadowColor="#FFFFFF"
+        android:text="Simple"
+        android:textColor="#00020C" />
+
+    <Button
+        android:id="@+id/btnSci1Google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginBottom="538dp"
+        android:backgroundTint="#DB4437"
+        android:text="Scientific 1"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnSci2Google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="536dp"
+        android:backgroundTint="#F4B400"
+        android:text="Scientific 2"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnClearGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="163dp"
+        android:layout_marginBottom="151dp"
+        android:backgroundTint="#4285F4"
+        android:text="Clear"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnSaveGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#DB4437"
+        android:text="Save" />
+</RelativeLayout>

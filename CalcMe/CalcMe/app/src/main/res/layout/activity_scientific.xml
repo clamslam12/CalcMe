@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="5dp"
+        android:text="Scientific (1 Input)"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSimpleInSci2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="49dp"
+        android:backgroundTint="#F44336"
+        android:text="Simple" />
+
+    <EditText
+        android:id="@+id/etXInSci1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="209dp"
+        android:ems="10"
+        android:hint="X"
+        android:importantForAutofill="no"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <Button
+        android:id="@+id/btnSci2InSci1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="23dp"
+        android:backgroundTint="#F44336"
+        android:text="Scientific(2 Inputs)" />
+
+    <Button
+        android:id="@+id/btnSquared"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="386dp"
+        android:backgroundTint="#F44336"
+        android:text="X^2" />
+
+    <Button
+        android:id="@+id/btnCubed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="389dp"
+        android:backgroundTint="#F44336"
+        android:text="X^3" />
+
+    <Button
+        android:id="@+id/btnLn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="65dp"
+        android:backgroundTint="#F44336"
+        android:text="ln" />
+
+    <Button
+        android:id="@+id/btnE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="280dp"
+        android:backgroundTint="#F44336"
+        android:text="e^x" />
+
+    <Button
+        android:id="@+id/btn1Over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginBottom="281dp"
+        android:backgroundTint="#F44336"
+        android:text="1/X" />
+
+    <Button
+        android:id="@+id/btnLog10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="282dp"
+        android:backgroundTint="#F44336"
+        android:text="log10" />
+
+    <Button
+        android:id="@+id/btnSin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="166dp"
+        android:backgroundTint="#F44336"
+        android:text="Sin" />
+
+    <Button
+        android:id="@+id/btnCos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginBottom="161dp"
+        android:backgroundTint="#F44336"
+        android:text="Cos" />
+
+    <Button
+        android:id="@+id/btnTan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="161dp"
+        android:backgroundTint="#F44336"
+        android:text="tan" />
+
+    <TextView
+        android:id="@+id/tvAnswerSci1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="49dp"
+        android:hint="Answer:"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btnClearSci1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="51dp"
+        android:backgroundTint="#F44336"
+        android:text="Clear" />
+
+    <Button
+        android:id="@+id/btnGoogleSci1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="111dp"
+        android:backgroundTint="#F44336"
+        android:text="Google" />
+
+    <Button
+        android:id="@+id/btnSaveSci1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="49dp"
+        android:backgroundTint="#F44336"
+        android:text="Save" />
+
+</RelativeLayout>
